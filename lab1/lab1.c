@@ -167,5 +167,5 @@ void obradi_sigterm(int sig)
 void obradi_sigint(int sig)
 {
     printf("Prihvacen SIGINT, gasim program bez spremanja statusa\n");
-    exit(1);
+    exit(0);
 }
