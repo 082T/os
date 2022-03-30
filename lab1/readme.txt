@@ -26,6 +26,9 @@ Trenutni status: 6, stavljam 36 u obrada.txt
 Trenutni status: 7, stavljam 49 u obrada.txt      //TERMINAL 2: kill -SIGINT 127
 Prihvacen SIGINT, gasim program bez spremanja statusa
 
+//status.txt: 0\n
+//obrada.txt: 1\n 4\n 9\n 16\n 25\n 36\n 49\n
+
 //TERMINAL 1: make pokreni
 
 Koristenje datoteka: status.txt i obrada.txt
@@ -34,3 +37,6 @@ Trenutni status: 8, stavljam 64 u obrada.txt
 Trenutni status: 9, stavljam 81 u obrada.txt      //TERMINAL 2: kill -SIGTERM 131
 Prihvatio SIGTERM, status 9 spremljen u status.txt i program se gasi
 Program s PID = 131 zavrsio s radom
+
+//status.txt: 9\n
+//obrada.txt: 1\n 4\n 9\n 16\n 25\n 36\n 49\n 64\n 81\n
