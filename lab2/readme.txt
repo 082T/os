@@ -2,6 +2,7 @@
 
 $kill -SIGUSR1 /*PID*/
           mijenja status (globalnu varijablu int last = 2,3,4...) u nasumični broj oko ~22000. Uporabom atomic_int nisam uspio rješiti problem.
+          Naredbe vezane uz dretve rade kako treba.
 
 
 ### Kompajliranje i pokretanje programa ###
