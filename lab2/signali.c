@@ -33,7 +33,7 @@ void obradi_sigusr1(int sig)
 void obradi_sigterm(int sig)
 {
     FILE *status;
-
+    FILE *fp;
     printf("Prihvatio SIGTERM, status %d spremljen u status.txt i program se gasi\n", last);
 
     status = fopen(status_dat, "w");
@@ -45,6 +45,9 @@ void obradi_sigterm(int sig)
     fprintf(status, "%d\n", last);
     fclose(status);
     nije_kraj = 0;
+    fp=fopen(dat_mreza,"w+");
+    fprintf(fp,"%d",0);
+    fclose(fp);
 }
 
 void obradi_sigint(int sig)

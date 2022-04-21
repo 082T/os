@@ -7,6 +7,7 @@
 extern int last, nije_kraj;
 extern char *obrada_dat;
 extern char *status_dat;
+extern char *dat_mreza;
 
 // napravi sigaction i stavi signale
 void stavi_signale();
