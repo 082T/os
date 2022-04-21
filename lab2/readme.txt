@@ -1,7 +1,7 @@
 ### NAPOMENA: ### 
 
 $kill -SIGUSR1 /*PID*/
-          iz meni nepoznatog razloga mijenja status (globalnu varijablu int last = 2,3,4...) u nasumični broj oko ~22000. Ostali signali rade kako trebaju.
+          mijenja status (globalnu varijablu int last = 2,3,4...) u nasumični broj oko ~22000. Ostali signali rade kako trebaju.
 
 
 ### Kompajliranje i pokretanje programa ###
