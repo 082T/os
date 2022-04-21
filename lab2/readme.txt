@@ -38,7 +38,7 @@ Trenutni status: 9, stavljam 81 u obrada.txt
 
 // terminal 2: kill SIGUSR1 20170
 
-rihvatio SIGTUSR1, trenutni status: 9
+prihvatio SIGTUSR1, trenutni status: 9
 Trenutni status: 9, stavljam 81 u obrada.txt
 Trenutni status: 10, stavljam 100 u obrada.txt
 -Trenutni status je djeljiv s 5
