@@ -69,7 +69,8 @@ int main(int argc, char *argv[])
     //skeniraj broj i stavi kao last
     while (nije_kraj)
     {
-        scanf("%d", &scanbroj);
+        if(scanf("%d", &scanbroj)>0)
+	{
         if(scanbroj>0)
         {
             last = scanbroj;
@@ -81,6 +82,7 @@ int main(int argc, char *argv[])
             fprintf(fp,"%d",0);
             fclose(fp);
         }
+	}
     }
 
     for (j = 0; j < BROJ_DRETVI;j++)
