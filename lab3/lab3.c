@@ -152,11 +152,12 @@ void *mreza(void *p)
     {
         int k;
         k=dohvati_iz_cijevi();
-        if(k>0)
+        if(k>1)
         {
             printf("Broj dretvi promijenjen s %d na %d!\n",postavljeni_broj_dretvi,k);
             postavljeni_broj_dretvi=k;
         }
+	else continue;
         while(trenutni_broj_dretvi < postavljeni_broj_dretvi)
         {
             if(pthread_create(&opisnik[trenutni_broj_dretvi],NULL,obradarad,&id[trenutni_broj_dretvi]))
