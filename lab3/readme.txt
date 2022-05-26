@@ -33,7 +33,7 @@ Trenutni status: 3, stavljam 9 u obrada.txt
 
 // terminal 2: echo 5 > cijev 
 
-Broj dretvi promjenjen s 3 na 5!
+Broj dretvi promijenjen s 3 na 5!
 Trenutni status: 4, stavljam 16 u obrada.txt
 Trenutni status: 5, stavljam 25 u obrada.txt
 -Trenutni status je djeljiv s 5
@@ -50,7 +50,7 @@ Trenutni status: 5, stavljam 25 u obrada.txt
 
 // terminal 2: echo 2 > cijev
 
-Broj dretvi promjenjen s 5 na 2!
+Broj dretvi promijenjen s 5 na 2!
 -Trenutni status je djeljiv s 5
 -Trenutni status je djeljiv s 5
 -Trenutni status je djeljiv s 5
@@ -58,7 +58,7 @@ Broj dretvi promjenjen s 5 na 2!
 
 // terminal 2: echo 10 > cijev
 
-Broj dretvi promjenjen s 2 na 10!
+Broj dretvi promijenjen s 2 na 10!
 Trenutni status: 6, stavljam 36 u obrada.txt
 Trenutni status: 7, stavljam 49 u obrada.txt
 Trenutni status: 8, stavljam 64 u obrada.txt
