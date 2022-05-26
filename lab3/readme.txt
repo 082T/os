@@ -66,11 +66,6 @@ Trenutni status: 9, stavljam 81 u obrada.txt
 Trenutni status: 10, stavljam 100 u obrada.txt
 -Trenutni status je djeljiv s 5
 Trenutni status: 11, stavljam 121 u obrada.txt
-Trenutni status: 12, stavljam 144 u obrada.txt
-Trenutni status: 13, stavljam 169 u obrada.txt
-Trenutni status: 14, stavljam 196 u obrada.txt
-Trenutni status: 15, stavljam 225 u obrada.txt
-Trenutni status: 16, stavljam 256 u obrada.txt
 
 // terminal1: ctrl+c
 
