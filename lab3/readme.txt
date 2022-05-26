@@ -67,7 +67,7 @@ Trenutni status: 10, stavljam 100 u obrada.txt
 -Trenutni status je djeljiv s 5
 Trenutni status: 11, stavljam 121 u obrada.txt
 
-// terminal1: ctrl+c
+// terminal 1: ctrl+c
 
 ^CPrihvacen SIGINT, gasim program bez spremanja statusa
 
