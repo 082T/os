@@ -14,7 +14,7 @@ U trećoj ("radnoj") dretvi, program povećava status za 1, te zapisuje (status^
 
 -napomene:
 
--Početni broj dretvi je 3. 
+-Početni broj dretvi je 3. Maksimalni broj dretvi je 100.
 -Ukoliko je kroz cijev primljen broj veći od trenutnog (početni = 3), kreiraju se nove "radne dretve". 
 -Ukoliko je kroz cijev primljen manji broj od trenutnog, brišu se samo "radne dretve". Cijev i dretva koja govori o (status % 5) se ne diraju.
 -Minimalni broj dretvi je 2. Tada program ništa ne radi (osim ako nije trenutni broj djeljiv s 5, tada će konstantno ispisivati da je status djeljiv s 5)
