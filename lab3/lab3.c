@@ -152,7 +152,7 @@ void *mreza(void *p)
     {
         int k;
         k=dohvati_iz_cijevi();
-        if(k>1 && k < 101)
+        if(k > 1 && k < 101)
         {
             printf("Broj dretvi promijenjen s %d na %d!\n",postavljeni_broj_dretvi,k);
             postavljeni_broj_dretvi=k;
